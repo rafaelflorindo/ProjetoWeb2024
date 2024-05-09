@@ -1,5 +1,7 @@
 <h1 align="center"> Projeto Web com Banco de Dados </h1>
 <p>Este repositório contém um projeto construído com os alunos do curso de Análise e Desenvolvimento de Sistemas na disciplina de Introdução ao desenvolvimento WEB aplicado com a linguagem PHP.
+
+  Link do site <a href="https://rafaelflorindo.github.io/ProjetoWeb2024/">Clique aqui.</a>
 </p>
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
