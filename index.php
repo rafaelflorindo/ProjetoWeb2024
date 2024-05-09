@@ -52,6 +52,7 @@ echo "</pre>";*/
     <title>Projeto Web - 2024</title>
     <link href="./css/boot.css" rel="stylesheet" type = "text/css">
     <link href="./css/style.css" rel="stylesheet" type = "text/css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Roboto&display=swap" rel="stylesheet">
@@ -59,21 +60,23 @@ echo "</pre>";*/
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="main_header">
-        <div class="main_header_logo">
-            <!--  inserir logo -->
+    <header class="header">
+        <div class="header_content">
+            <a href="#" class="logo">
+                <img src="img/logoRafaelWeb.png" alt="Bem vindo ao projeto prático HTML% e CSS3 Essentials" title="Bem vindo ao projeto prático HTML% e CSS3 Essentials">
+            </a>
+            <nav class="header_content_menu">
+                <ul>
+                    <li><a href="index.php#quemSomos">Quem Somos</a></li>
+                    <li><a href="index.php#tutoriais">Tutoriais</a></li>
+                    <li><a href="index.php#cursos">Cursos</a></li>
+                    <li><a href="index.php#contato">Contato</a></li>
+                </ul>
+            </nav> 
         </div>
-        <nav class="main_header_nav">
-            <ul>
-                <li><a href="index.php#quemSomos">Quem Somos</a></li>
-                <li><a href="index.php#tutoriais">Tutoriais</a></li>
-                <li><a href="index.php#cursos">Cursos</a></li>
-                <li><a href="index.php#contato">Contato</a></li>
-            </ul>
-        </nav> 
     </header>
-    
-    <section class="main_quemSomos">
+    <main>
+    <section class="quemSomos">
         <header>
             <a name="quemSomos"><h1>Quem Somos</h1></a>
         </header>
@@ -104,26 +107,6 @@ echo "</pre>";*/
             <?php
             }
         ?>
-        <!--<article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>Front-End</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>
-        <article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>Back-End</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>
-        <article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>Banco de Dados</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>
-        <article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>Designer</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>-->
     </section>
     
     <section class="main_cursos">
@@ -144,26 +127,6 @@ echo "</pre>";*/
             <?php
             }
         ?>
-        <!--<article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>HTML 5</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>
-        <article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>PHP</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>
-        <article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>React</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>
-        <article>
-            <a href="#"><img src="#" alt="" title=""></a>
-            <h2>Angular</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </article>-->
     </section>
 
     <section class="main_contato">
@@ -176,7 +139,7 @@ echo "</pre>";*/
             </form>
         </header>
     </section>
-
+    </main>
     <footer>
         <div>
             <!--  inserir logo -->
